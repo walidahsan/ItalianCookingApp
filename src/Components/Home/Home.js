@@ -1,3 +1,4 @@
+import Reviews from "../OurReviews/Reviews";
 import Pizza from "../PizzaSection/Pizza";
 import Product from "../ProductSection/Product";
 import Recipe from "../Recipe-Section/Recipe";
@@ -12,6 +13,7 @@ function Home() {
       <RecipeJumbotron />
       <Product />
       <Pizza />
+      <Reviews />
     </div>
   );
 }
