@@ -1,0 +1,39 @@
+.Jumbotron {
+  background-color: #27292c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+.Jumbotron h2 {
+  margin: 40px 0;
+  font-size: 4rem;
+  font-family: "Reey-Regular";
+  font-weight: 300;
+  color: white;
+}
+.center_jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+.center_jumbotron p {
+  margin: 20px;
+}
+.more_info_btn {
+  padding: 12px 50px;
+  background-color: white;
+  color: #27292c;
+  border-radius: 200px;
+  text-decoration: none;
+  margin: 40px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+.more_info_btn:hover {
+  background-color: rgb(250, 178, 45);
+}

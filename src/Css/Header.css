@@ -1,0 +1,65 @@
+.Header_img {
+  background-image: url("../img/headerBackground.png");
+
+  /* Set a specific height */
+  height: 780px;
+
+  /* Position and center the image to scale nicely on all screens */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  margin-right: 0 20px;
+  margin: 30px 0;
+}
+.ul_list a {
+  margin-left: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+}
+.ul_list a:hover {
+  color: rgb(250, 178, 45);
+  transition: 1s;
+}
+.Search_field {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 200px;
+  margin-right: 50px;
+  padding-left: 20px;
+  transition: 2s;
+}
+
+.Search_field:focus {
+  outline: none;
+  width: 200px;
+  transition: 2s;
+}
+/* 
+@keyframes searchfield{
+    0% 
+} */
+.header_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  padding: 10px;
+}

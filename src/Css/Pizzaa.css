@@ -1,0 +1,65 @@
+.PizzaHeader {
+  background-image: url("../img/headerBackground.png");
+
+  /* Set a specific height */
+  height: 591px;
+
+  /* Position and center the image to scale nicely on all screens */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Pizza_leaves {
+  background-image: url("../img/leaves1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.pizza_intro {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizza_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+
+.pizza_heading h2 {
+  margin: 40px 0;
+  font-size: 4rem;
+  font-family: "Reey-Regular";
+  font-weight: 300;
+  color: white;
+}
+
+.pizza_heading p {
+  font-size: 1.3rem;
+  width: 600px;
+}
+
+.pizza_hr {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 5px;
+  width: 100px;
+}
+.Full_pizza {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.slice_pizza {
+  position: absolute;
+  bottom: -26px;
+  left: 378px;
+}

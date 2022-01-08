@@ -1,0 +1,24 @@
+.right_all {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+/* .img1 {
+  margin-left: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+} */
+.img2 {
+  margin-left: 30px;
+  position: absolute;
+  bottom: -142px;
+  left: -142px;
+}
+.img3 {
+  margin-left: 30px;
+  position: absolute;
+  bottom: -300px;
+  right: 0px;
+}
