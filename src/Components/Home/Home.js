@@ -1,3 +1,4 @@
+import NewsLetter from "../NewsLetter/NewsLetter";
 import Reviews from "../OurReviews/Reviews";
 import Pizza from "../PizzaSection/Pizza";
 import Product from "../ProductSection/Product";
@@ -14,6 +15,7 @@ function Home() {
       <Product />
       <Pizza />
       <Reviews />
+      <NewsLetter />
     </div>
   );
 }
